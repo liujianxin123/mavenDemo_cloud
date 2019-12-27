@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demo" />
+        <module name="eurekaClient" />
+        <module name="eurekaClientTwo" />
+        <module name="eurekaServer" />
+        <module name="mavenDemo_cloud" />
+        <module name="serice-fegin" />
+        <module name="service-zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="classes" target="1.5" />
+      <module name="serice-feign" target="1.8" />
+      <module name="service-ribbon" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

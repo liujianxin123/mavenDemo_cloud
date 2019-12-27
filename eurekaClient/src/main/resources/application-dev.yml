@@ -1,0 +1,13 @@
+spring:
+  dataSource:
+    url: jdbc:mysql://localhost:3306/demoTest?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+  data:
+    mongodb:
+      host: 192.168.1.111
+      port: 22771
+      database: feature_service
+      username: feature_service
+      password: feature_20180720

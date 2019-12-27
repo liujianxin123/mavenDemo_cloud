@@ -1,0 +1,19 @@
+server:
+  port: 8761
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    ## Eureka client 去 Eureka 中拉取服务注册表的时间 配置 3 秒
+    registryFetchIntervalSeconds: 30000
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+    ## Eureka  两个缓存之间的同更新时间 配置成 3s
+    registry-fetch-interval-seconds: 30000
+  server:
+    response-cache-update-interval-ms: 3000
+    ## 服务发现的时效性，默认90 秒钟才下线。可以调整为 9s
+    leaseExpirationDurationInSeconds: 90

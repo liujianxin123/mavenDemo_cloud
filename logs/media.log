@@ -1,0 +1,370 @@
+2019-12-27 11:10:06,941 [background-preinit]  INFO  Version  - HV000001: Hibernate Validator 6.0.13.Final
+2019-12-27 11:10:08,507 [main]  INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker  - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$edcd7771] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 11:10:08,910 [main]  INFO  ServiceHiApplicationTwo  - No active profile set, falling back to default profiles: default
+2019-12-27 11:10:10,295 [main]  INFO  RepositoryConfigurationDelegate  - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-27 11:10:10,367 [main]  INFO  RepositoryConfigurationDelegate  - Finished Spring Data repository scanning in 67ms. Found 1 repository interfaces.
+2019-12-27 11:10:10,500 [main]  WARN  EndpointId  - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-12-27 11:10:10,755 [main]  INFO  GenericScope  - BeanFactory id=2d2ea87e-ebaa-3e4e-8e94-01cdcdc58170
+2019-12-27 11:10:10,889 [main]  INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker  - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$edcd7771] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 11:10:11,230 [main]  INFO  TomcatWebServer  - Tomcat initialized with port(s): 8763 (http)
+2019-12-27 11:10:11,425 [main]  INFO  ContextLoader  - Root WebApplicationContext: initialization completed in 2445 ms
+2019-12-27 11:10:11,573 [main]  WARN  URLConfigurationSource  - No URLs will be polled as dynamic configuration sources.
+2019-12-27 11:10:11,574 [main]  INFO  URLConfigurationSource  - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-27 11:10:11,587 [main]  INFO  DynamicPropertyFactory  - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@60c8a093
+2019-12-27 11:10:12,136 [main]  INFO  cluster  - Cluster created with settings {hosts=[192.168.1.111:22771], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-12-27 11:10:12,138 [main]  INFO  cluster  - Adding discovered server 192.168.1.111:22771 to client view of cluster
+2019-12-27 11:10:12,239 [cluster-ClusterId{value='5e057614041c2e5ca7141932', description='null'}-192.168.1.111:22771]  INFO  connection  - Opened connection [connectionId{localValue:1, serverValue:181565}] to 192.168.1.111:22771
+2019-12-27 11:10:12,251 [cluster-ClusterId{value='5e057614041c2e5ca7141932', description='null'}-192.168.1.111:22771]  INFO  cluster  - Monitor thread successfully connected to server with description ServerDescription{address=192.168.1.111:22771, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 6]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=9537334}
+2019-12-27 11:10:12,253 [cluster-ClusterId{value='5e057614041c2e5ca7141932', description='null'}-192.168.1.111:22771]  INFO  cluster  - Discovered cluster type of STANDALONE
+2019-12-27 11:10:13,028 [main]  WARN  URLConfigurationSource  - No URLs will be polled as dynamic configuration sources.
+2019-12-27 11:10:13,029 [main]  INFO  URLConfigurationSource  - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-27 11:10:13,363 [main]  INFO  ThreadPoolTaskExecutor  - Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-27 11:10:13,782 [main]  INFO  ThreadPoolTaskScheduler  - Initializing ExecutorService 'taskScheduler'
+2019-12-27 11:10:13,889 [main]  INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-12-27 11:10:13,969 [main]  INFO  InstanceInfoFactory  - Setting initial instance status as: STARTING
+2019-12-27 11:10:14,010 [main]  INFO  DiscoveryClient  - Initializing Eureka in region us-east-1
+2019-12-27 11:10:14,097 [main]  INFO  DiscoveryJerseyProvider  - Using JSON encoding codec LegacyJacksonJson
+2019-12-27 11:10:14,098 [main]  INFO  DiscoveryJerseyProvider  - Using JSON decoding codec LegacyJacksonJson
+2019-12-27 11:10:14,204 [main]  INFO  DiscoveryJerseyProvider  - Using XML encoding codec XStreamXml
+2019-12-27 11:10:14,205 [main]  INFO  DiscoveryJerseyProvider  - Using XML decoding codec XStreamXml
+2019-12-27 11:10:14,569 [main]  INFO  ConfigClusterResolver  - Resolving eureka endpoints via configuration
+2019-12-27 11:10:14,590 [main]  INFO  DiscoveryClient  - Disable delta property : false
+2019-12-27 11:10:14,591 [main]  INFO  DiscoveryClient  - Single vip registry refresh property : null
+2019-12-27 11:10:14,593 [main]  INFO  DiscoveryClient  - Force full registry fetch : false
+2019-12-27 11:10:14,594 [main]  INFO  DiscoveryClient  - Application is null : false
+2019-12-27 11:10:14,594 [main]  INFO  DiscoveryClient  - Registered Applications size is zero : true
+2019-12-27 11:10:14,610 [main]  INFO  DiscoveryClient  - Application version is -1: true
+2019-12-27 11:10:14,629 [main]  INFO  DiscoveryClient  - Getting all instance registry info from the eureka server
+2019-12-27 11:10:14,966 [main]  INFO  DiscoveryClient  - The response status is 200
+2019-12-27 11:10:14,972 [main]  INFO  DiscoveryClient  - Starting heartbeat executor: renew interval is: 30
+2019-12-27 11:10:14,977 [main]  INFO  InstanceInfoReplicator  - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-12-27 11:10:14,982 [main]  INFO  DiscoveryClient  - Discovery Client initialized at timestamp 1577416214981 with initial instances count: 0
+2019-12-27 11:10:14,988 [main]  INFO  EurekaServiceRegistry  - Registering application SERVICE-HI with eureka with status UP
+2019-12-27 11:10:14,989 [main]  INFO  DiscoveryClient  - Saw local status change event StatusChangeEvent [timestamp=1577416214989, current=UP, previous=STARTING]
+2019-12-27 11:10:14,991 [DiscoveryClient-InstanceInfoReplicator-0]  INFO  DiscoveryClient  - DiscoveryClient_SERVICE-HI/192.168.1.177:service-hi:8763: registering service...
+2019-12-27 11:10:15,106 [DiscoveryClient-InstanceInfoReplicator-0]  INFO  DiscoveryClient  - DiscoveryClient_SERVICE-HI/192.168.1.177:service-hi:8763 - registration status: 204
+2019-12-27 11:10:15,124 [main]  INFO  TomcatWebServer  - Tomcat started on port(s): 8763 (http) with context path ''
+2019-12-27 11:10:15,125 [main]  INFO  EurekaAutoServiceRegistration  - Updating port to 8763
+2019-12-27 11:10:15,129 [main]  INFO  ServiceHiApplicationTwo  - Started ServiceHiApplicationTwo in 8.46 seconds (JVM running for 9.397)
+2019-12-27 11:10:15,548 [RMI TCP Connection(4)-127.0.0.1]  INFO  DispatcherServlet  - Initializing Servlet 'dispatcherServlet'
+2019-12-27 11:10:15,564 [RMI TCP Connection(4)-127.0.0.1]  INFO  DispatcherServlet  - Completed initialization in 15 ms
+2019-12-27 11:10:15,726 [RMI TCP Connection(6)-127.0.0.1]  INFO  connection  - Opened connection [connectionId{localValue:2, serverValue:181566}] to 192.168.1.111:22771
+2019-12-27 11:10:41,481 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,482 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,483 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,484 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,485 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,485 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,486 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,498 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,499 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,500 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,501 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,512 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,515 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,591 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,593 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,595 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,614 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,615 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,642 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,642 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,643 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,643 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,643 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,644 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,645 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,647 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,648 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,648 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,649 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,649 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,650 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,652 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,653 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,656 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,657 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,658 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,658 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,659 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,662 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,663 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,663 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,664 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,664 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,665 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,665 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,666 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,666 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,667 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,667 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,668 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,668 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,676 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,677 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,678 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,680 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,680 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,681 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,681 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,682 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,683 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,685 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,688 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,689 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,690 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,691 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,692 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,693 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,695 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,696 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,697 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,698 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,700 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,701 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,703 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,706 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,707 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,710 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,713 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,713 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,713 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,740 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,741 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,742 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,744 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,746 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,746 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,747 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,747 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,748 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,748 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,748 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,749 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,754 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,754 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,756 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,757 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,758 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,758 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,763 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,764 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,766 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,766 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,768 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,770 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,772 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,773 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,774 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,774 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,775 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,775 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,775 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,776 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,777 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,777 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,777 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,778 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,780 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,781 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,781 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,783 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,793 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,793 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,794 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,795 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,796 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,796 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,796 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,798 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,799 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,800 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,801 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,802 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,805 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,805 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,806 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,806 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,806 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,807 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,807 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,809 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,810 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,816 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,818 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,821 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,824 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,825 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,826 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,831 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,832 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,832 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,833 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,835 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,849 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,850 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,850 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,851 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,851 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,852 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,853 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,855 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,856 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,858 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,859 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,859 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,860 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,861 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,863 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,863 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,864 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,864 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,864 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,865 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,865 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,865 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,866 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,866 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,867 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,867 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,867 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,867 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,868 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,868 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,870 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,871 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,871 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,872 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,874 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,875 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,876 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,876 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,879 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,879 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,880 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,880 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,880 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,881 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,881 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,882 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,882 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,883 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,883 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,885 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,887 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,888 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,890 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,890 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,891 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,895 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,896 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,896 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,897 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,898 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,899 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,899 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,900 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,900 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,900 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,901 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,901 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,901 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,904 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,909 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,909 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,909 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,911 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,913 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,913 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,913 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,913 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,914 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,914 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,914 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,914 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,915 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,915 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,915 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,915 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,917 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,917 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,918 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,924 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,925 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,925 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,925 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,926 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,934 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,938 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,941 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,941 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,941 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,942 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,942 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,942 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,942 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,944 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,945 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,946 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,947 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,948 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,949 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,949 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,950 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,952 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,952 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,953 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,954 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,954 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,955 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,955 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,956 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,956 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,956 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,956 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,957 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,957 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,957 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,957 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,958 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,958 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,958 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,959 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,959 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,959 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,960 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,960 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,960 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,960 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,961 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,961 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,961 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,962 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,962 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,963 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,963 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,963 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,963 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,964 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:41,964 [http-nio-8763-exec-1]  INFO  SayHiController  - 输出info日志
+2019-12-27 11:10:41,964 [http-nio-8763-exec-1]  ERROR SayHiController  - 输出error日志
+2019-12-27 11:10:41,965 [http-nio-8763-exec-1]  WARN  SayHiController  - 输出warn日志
+2019-12-27 11:10:44,976 [DiscoveryClient-CacheRefreshExecutor-0]  INFO  DiscoveryClient  - Disable delta property : false
+2019-12-27 11:10:44,977 [DiscoveryClient-CacheRefreshExecutor-0]  INFO  DiscoveryClient  - Single vip registry refresh property : null
+2019-12-27 11:10:44,977 [DiscoveryClient-CacheRefreshExecutor-0]  INFO  DiscoveryClient  - Force full registry fetch : false
+2019-12-27 11:10:44,978 [DiscoveryClient-CacheRefreshExecutor-0]  INFO  DiscoveryClient  - Application is null : false
+2019-12-27 11:10:44,978 [DiscoveryClient-CacheRefreshExecutor-0]  INFO  DiscoveryClient  - Registered Applications size is zero : true
+2019-12-27 11:10:44,978 [DiscoveryClient-CacheRefreshExecutor-0]  INFO  DiscoveryClient  - Application version is -1: false
+2019-12-27 11:10:44,979 [DiscoveryClient-CacheRefreshExecutor-0]  INFO  DiscoveryClient  - Getting all instance registry info from the eureka server
+2019-12-27 11:10:45,035 [DiscoveryClient-CacheRefreshExecutor-0]  INFO  DiscoveryClient  - The response status is 200
+2019-12-27 11:11:33,585 [Thread-25]  INFO  EurekaServiceRegistry  - Unregistering application SERVICE-HI with eureka with status DOWN
+2019-12-27 11:11:33,590 [Thread-25]  WARN  DiscoveryClient  - Saw local status change event StatusChangeEvent [timestamp=1577416293589, current=DOWN, previous=UP]
+2019-12-27 11:11:33,591 [DiscoveryClient-InstanceInfoReplicator-0]  INFO  DiscoveryClient  - DiscoveryClient_SERVICE-HI/192.168.1.177:service-hi:8763: registering service...
+2019-12-27 11:11:33,614 [DiscoveryClient-InstanceInfoReplicator-0]  INFO  DiscoveryClient  - DiscoveryClient_SERVICE-HI/192.168.1.177:service-hi:8763 - registration status: 204
+2019-12-27 11:11:33,617 [Thread-25]  INFO  ThreadPoolTaskScheduler  - Shutting down ExecutorService 'taskScheduler'
+2019-12-27 11:11:33,624 [Thread-25]  INFO  ThreadPoolTaskExecutor  - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-27 11:11:33,652 [Thread-25]  INFO  connection  - Closed connection [connectionId{localValue:2, serverValue:181566}] to 192.168.1.111:22771 because the pool has been closed.
+2019-12-27 11:11:33,666 [Thread-25]  INFO  DiscoveryClient  - Shutting down DiscoveryClient ...
+2019-12-27 11:11:36,672 [Thread-25]  INFO  DiscoveryClient  - Unregistering ...
+2019-12-27 11:11:36,685 [Thread-25]  INFO  DiscoveryClient  - DiscoveryClient_SERVICE-HI/192.168.1.177:service-hi:8763 - deregister  status: 200
+2019-12-27 11:11:36,705 [Thread-25]  INFO  DiscoveryClient  - Completed shut down of DiscoveryClient
