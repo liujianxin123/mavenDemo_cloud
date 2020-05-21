@@ -1,16 +1,17 @@
 eureka:
   client:
     serviceUrl:
+#      本地
       defaultZone: http://localhost:8761/eureka/
+#      服务器
+#      defaultZone: http://ec2-18-218-252-174.us-east-2.compute.amazonaws.com:8761/eureka/
 server:
   port: 8763
 spring:
   application:
     name: service-hi
-  data:
-    mongodb:
-      host: 192.168.1.111
-      port: 22771
-      database: feature_service
-      username: feature_service
-      password: feature_20180720
+    profiles.active: dev
+
+mybatis:
+  mapper-locations: mapper/*.xml
+  type-aliases-package: com.example.demo.entity.*

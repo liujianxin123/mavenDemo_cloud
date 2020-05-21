@@ -1,0 +1,28 @@
+spring:
+  data:
+    mongodb:
+      host: 192.168.1.111
+      port: 22771
+      database: feature_service
+      username: feature_service
+      password: feature_20180720
+  dataSource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    dataSource0:
+      url: jdbc:mysql://localhost:3306/demoTest?useUnicode=true&characterEncoding=utf8
+      username: root
+      password: root
+      driver-class-name: com.mysql.jdbc.Driver
+      filters: stat
+      maxActive: 200
+      initialSize: 1
+      maxWait: 60000
+      minIdle: 1
+      timeBetweenEvictionRunsMillis: 60000
+      minEvictableIdleTimeMillis: 300000
+      validationQuery: select 'x'
+      testWhileIdle: true
+      testOnBorrow: false
+      testOnReturn: false
+      poolPreparedStatements: true
+      maxOpenPreparedStatements: 20

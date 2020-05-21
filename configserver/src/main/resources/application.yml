@@ -1,0 +1,29 @@
+server:
+  port: 8770
+spring:
+  application:
+    name: config-server
+#  profiles.active: dev
+  cloud:
+    config:
+      server:
+        git:
+#         指明配置服务中心的网址
+          uri: https://github.com/liujianxin123/mavenDemo_cloud
+          search-paths: blob
+#     指明远程仓库的分支
+      label: master
+#        native:
+#          search-locations: classpath:/shared
+#  profiles:
+#      active: native
+eureka:
+  client:
+    serviceUrl:
+      #      本地
+      defaultZone: http://localhost:8761/eureka/
+#      服务器
+#      defaultZone: http://ec2-18-218-252-174.us-east-2.compute.amazonaws.com:8761/eureka/
+mybatis:
+  mapper-locations: mapper/*.xml
+  type-aliases-package: com.example.demo.entity.*

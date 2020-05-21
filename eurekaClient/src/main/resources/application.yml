@@ -2,9 +2,9 @@ eureka:
   client:
     serviceUrl:
 #      本地环境
-#      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://localhost:8761/eureka/
 #      服务器环境
-      defaultZone: http://ec2-18-218-252-174.us-east-2.compute.amazonaws.com:8761/eureka/
+#      defaultZone: http://ec2-18-218-252-174.us-east-2.compute.amazonaws.com:8761/eureka/
 server:
   port: 8762
 spring:
